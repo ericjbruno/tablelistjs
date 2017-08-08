@@ -1,0 +1,21 @@
+/* 
+    Created on : Aug 4, 2017, 
+    Author     : ericjbruno
+*/
+table {
+    background-color: #fd9;
+}
+tbody {
+    background-color: #fff;
+    height: 150px;
+    overflow: auto;
+}
+td {
+    padding: 3px 10px;
+}
+
+thead > tr, tbody{ display:block;}
+
+#entries tr.clicked { background: #ccd; }
+#entries tr.highlight { background: #eef; }
+
